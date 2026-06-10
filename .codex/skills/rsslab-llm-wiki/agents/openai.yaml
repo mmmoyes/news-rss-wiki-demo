@@ -1,0 +1,3 @@
+display_name: RSSLab LLM Wiki
+short_description: Ingest rsslab JSONL into cited Wikis.
+default_prompt: Use $rsslab-llm-wiki to ingest an rsslab JSONL evidence bundle into a wiki_id-isolated Markdown knowledge base while preserving citations.

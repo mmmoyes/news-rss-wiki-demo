@@ -1,0 +1,24 @@
+wiki_id: world-cup
+created_at: "2026-06-08T00:00:00+08:00"
+updated_at: "2026-06-08T00:00:00+08:00"
+language: zh-CN
+scope: "基于 rsslab evidence bundle 的世界杯新闻知识库，聚焦 2026 年世界杯的主办关系、旅行与签证限制、墨西哥主办城市、安保、足球文化和美国政治背景。"
+allowed_topics:
+  - world
+  - football
+  - politics
+  - security
+  - mexico
+source_bundle: "evidence/world_cup.jsonl"
+collections:
+  - 1
+cross_wiki_links: "disabled_unless_explicit"
+linking_policy:
+  internal_links: "Use Obsidian-style [[...]] links for same-wiki topics, entities, sources, and timeline pages."
+  external_links: "Use original evidence citation URLs for factual claims."
+ingest_rules:
+  input: "rsslab JSONL evidence bundle only"
+  preserve_citations: true
+  preserve_internal_links: true
+  preserve_content_hashes: true
+  preserve_extraction_status: true
